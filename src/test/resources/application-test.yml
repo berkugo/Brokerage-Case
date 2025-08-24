@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  h2:
+    console:
+      enabled: false
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+
+jwt:
+  # Base64 encoded: "TestSecretKeyForTestingPurposesOnlyBerkayUgurogluIWillGetThisJob"
+  secret: VGVzdFNlY3JldEtleUZvclRlc3RpbmdQdXJwb3Nlc09ubHlCZXJrYXlVZ3Vyb2dsdUlXaWxsR2V0VGhpc0pvYg==
+  expiration: 3600000 # 1 hour in milliseconds
+
+logging:
+  level:
+    com.brokerage: INFO
+    org.springframework.security: INFO 
