@@ -2,8 +2,8 @@ spring:
   datasource:
     url: jdbc:h2:mem:brokeragedb
     driver-class-name: org.h2.Driver
-    username: sa
-    password: password
+    username: broker
+    password: helloworld
   h2:
     console:
       enabled: true

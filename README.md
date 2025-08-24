@@ -1,5 +1,5 @@
 
-# LLMs were only used to help create comprehensive documentation, project summaries and test classes, not for the actual development process. This is an example of it. 
+# LLMs were only used to help create comprehensive documentation, project summaries and some of test classes, not for the actual development process. 
 
 # Brokerage Firm Backend API
 
@@ -140,8 +140,8 @@ src/
    - API: http://localhost:8080
    - H2 Console: http://localhost:8080/h2-console
    - Database URL: `jdbc:h2:mem:brokeragedb`
-   - Username: `sa`
-   - Password: `password`
+   - Username: `broker`
+   - Password: `helloworld`
 
 ### Default Users
 
@@ -274,22 +274,5 @@ The application can be configured through `application.yml`:
 - **JWT**: Secret key and expiration time
 - **Server**: Port and other server settings
 - **Logging**: Log levels for debugging
-
-## Production Considerations
-
-- Replace H2 with a production database (PostgreSQL, MySQL, etc.)
-- Use a strong, unique JWT secret key
-- Enable HTTPS in production
-- Configure proper logging and monitoring
-- Set up database connection pooling
-- Implement rate limiting and API throttling
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Submit a pull request
 
 
