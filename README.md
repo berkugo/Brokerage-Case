@@ -1,7 +1,7 @@
 
 # LLMs were only used to help create comprehensive documentation, project summaries and some of test classes, not for the actual development process. 
 
-# Brokerage Firm Backend API
+# Brokage Firm Challenge
 
 A comprehensive Java backend API for a brokerage firm that allows employees to manage stock orders for customers. Built with Spring Boot, this application provides secure endpoints for creating, listing, and managing stock orders with proper asset validation and business logic.
 
